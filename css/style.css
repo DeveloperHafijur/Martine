@@ -25,9 +25,6 @@ body {
 .blue {
   color: #0c3e72;
 }
-.container {
-  width: 1140px !important;
-}
 
 /* ***********************************
             header section css
@@ -151,6 +148,7 @@ body {
   transform: scaleY(1);
   transition: .3s;
 }
+
 /* ***********************************
             banner section css
 ***************************************/
@@ -319,7 +317,7 @@ body {
   width: 50px;
   height: 50px;
   position: absolute;
-  right: 40px;
+  right: 60px;
   bottom: 40px;
   border-radius: 100%;
   display: flex;
@@ -352,6 +350,9 @@ body {
   bottom: 0;
   opacity: 0;
   transition: 0.9s;
+}
+.place-list-item img{
+    width: 795px !important;
 }
 .place-list-item:hover::after {
   opacity: 0.75;
@@ -446,6 +447,37 @@ body {
 .rating span {
   color: #848484;
 }
+.event .owl-dots {
+  display: none;
+}
+.event .owl-prev {
+  font-weight: 300 !important;
+  font-size: 45px !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: #fe5c24a6 !important;
+  width: 70px;
+  height: 70px;
+  border-radius: 50% !important;
+  line-height: 70px !important;
+  position: absolute;
+  left: 125px;
+  top: 35%;
+  text-align: center !important;
+}
+.event .owl-next {
+  font-weight: 300 !important;
+  font-size: 45px !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: #fe5c24a6 !important;
+  width: 70px;
+  height: 70px;
+  border-radius: 50% !important;
+  line-height: 70px !important;
+  position: absolute;
+  right: -85px;
+  top: 35%;
+  text-align: center !important;
+}
 
 /* ***********************************
             top-hotel section css
@@ -470,6 +502,9 @@ body {
 .top-hotel-list {
   position: relative;
   border-bottom: 1px solid #ced8e3;
+}
+.top-hotel-list img{
+    width: 460px !important;
 }
 .top-hotel-list-details {
   padding: 33px 0;
@@ -564,34 +599,7 @@ body {
   transition: 0.5s;
   cursor: pointer;
 }
-.event .owl-prev {
-  font-weight: 300 !important;
-  font-size: 45px !important;
-  background-color: rgba(255, 255, 255, 0.5) !important;
-  color: #fe5c24a6 !important;
-  width: 70px;
-  height: 70px;
-  border-radius: 50% !important;
-  line-height: 70px !important;
-  position: absolute;
-  left: 25px;
-  top: 35%;
-  text-align: center !important;
-}
-.event .owl-next {
-  font-weight: 300 !important;
-  font-size: 45px !important;
-  background-color: rgba(255, 255, 255, 0.5) !important;
-  color: #fe5c24a6 !important;
-  width: 70px;
-  height: 70px;
-  border-radius: 50% !important;
-  line-height: 70px !important;
-  position: absolute;
-  right: -125px;
-  top: 35%;
-  text-align: center !important;
-}
+
 /* ***********************************
             member-review section css
 ***************************************/
@@ -696,6 +704,9 @@ body {
   line-height: 28px;
   font-size: 16px;
   font-weight: 400;
+}
+.services-list img{
+    width: 363px;
 }
 
 /* ***********************************
